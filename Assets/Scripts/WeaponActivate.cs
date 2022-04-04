@@ -11,8 +11,12 @@ public class WeaponActivate : MonoBehaviour
         print("piv piv");
     }
 
-    public void Lazer()
+    public void OnLazer()
     {
         _lazerBlade.SetActive(true);
+    }
+    public void OffLazer()
+    {
+        _lazerBlade.SetActive(false);
     }
 }
